@@ -1,14 +1,35 @@
-# Capstone Project I
-## This was my first project when learning the Python language.
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/cJFQJzZxFMhONxDTnt/giphy.gif" width="300" height="300"/>
+</div>
 
-###### This python program serves as a basic finance calculator.
+<div align="center">
+  <h1>
+    Finance Calculator App
+  </h1>
+</div>
 
-**The program can perform the following calculations:**
+#### Basic finance calculator application that automates investment return and bond repayment calculations.
 
-1. Investment with simple interest
-2. Investment with compound interest
-3. Monthly bond repayments
+---
 
-Program will prompt user for information required for calculations.
-Program flow will guide the user based on what the user chooses to do.
-Program will output the desired calculation on the screen.
+## 📌 Index
+
+- Requirements
+- Installation
+- Configuration
+
+---
+
+## 📌 Requirements
+
+This application requires the following modules:
+
+- [Tabulate](https://pypi.org/project/tabulate/)
+
+---
+
+## 📌 Installation
+
+---
+
+## 📌 Configuration
