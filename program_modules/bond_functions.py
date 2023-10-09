@@ -1,9 +1,10 @@
-from validation_functions import *
+from validation_functions import valid_flt
 from tabulate import tabulate
 
 def bond_inputs():
     """
     Return figures for bond calculation.
+
     :return: figures as list
     """
     bond_total = valid_flt("Enter total bond value R")
@@ -12,13 +13,14 @@ def bond_inputs():
     return [bond_total, interest, duration]
 
 
-def table_bond_result(figures, result):
+def table_bond_result(figures: list, result: float):
     """
-        Formats and displays bond results as
-        a table using the tabulate module.
-        :param figures: figures from user inputs
-        :param result: calculation result
-        """
+    Formats and displays bond results as
+    a table using the tabulate module.
+
+    :param figures: figures from user inputs
+    :param result: calculation result
+    """
     display = [
         ["Bond Total", f"R{figures[0]:,.2f}"],
         ["Interest Rate", f"{round(figures[1] * 12 * 100)}%"],

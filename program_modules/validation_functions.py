@@ -1,7 +1,9 @@
 def valid_flt(prompt: str):
     """
     Validates and returns float from input.
+
     :param prompt: input instruction
+
     :return: float value
     """
     while True:

@@ -1,10 +1,11 @@
-from validation_functions import *
+from validation_functions import valid_flt
 import math
 from tabulate import tabulate
 
 def invest_inputs():
     """
     Returns figures required to calculate investment return.
+
     :return: list of figures
     """
     principal = valid_flt("Enter principal investment value R")
@@ -16,8 +17,10 @@ def invest_inputs():
 def simple_interest(figures: list):
     """
     Calculates and returns simple interest return.
+
     :param figures: list of required figures
-    :return float result return
+
+    :return: float result return
     """
     return figures[0] * (1 + (figures[1] * figures[2]))
 
@@ -25,16 +28,19 @@ def simple_interest(figures: list):
 def compound_interest(figures: list):
     """
     Calculates and returns compound interest return.
+
     :param figures: list of required figures
+
     :return: float result value
     """
     return figures[0] * math.pow((1 + figures[1]), figures[2])
 
 
-def table_invest_result(figures, result):
+def table_invest_result(figures: list, result: float):
     """
     Formats and displays investment results as
     a table using the tabulate module.
+
     :param figures: figures from user inputs
     :param result: calculation result
     """

@@ -23,6 +23,7 @@ INVESTMENT OPTIONS
 def investment():
     """
     Sub menu with additional investment options.
+
     :return: back to main menu
     """
     while True:
