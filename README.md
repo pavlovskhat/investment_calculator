@@ -25,6 +25,8 @@
 This application requires the following modules:
 
 - [Tabulate](https://pypi.org/project/tabulate/)
+- [Sphinx](https://pypi.org/project/Sphinx/)
+- [Material Sphinx Theme](https://pypi.org/project/sphinx-material/)
 
 ---
 
