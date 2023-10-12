@@ -32,6 +32,26 @@ This application requires the following modules:
 
 ## 📌 Installation
 
+1. Install Docker:
+  - If you haven't already installed Docker on your system, you can download and install it by following the instructions for your specific operating system.
+  - You can find the installation instructions on the [official Docker website](https://www.docker.com/).
+2. Login to Docker:
+  - Open a command prompt or terminal window and login to your docker account with the following command:
+```
+docker login
+```
+3. Pull Docker image:
+  - After logging into docker pull the image from the repository with the following command:
+```
+docker pull pavlovskhat/investment_calculator:latest
+```
+4. Run Docker image:
+  - Run the image with the following command:
+  ```
+  docker run -i investment_calculator:latest
+  ```
 ---
 
 ## 📌 Configuration
+
+No special configuration required at this stage. Program has no GUI and can only be run via the command prompt, shell or terminal window.
