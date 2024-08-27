@@ -9,9 +9,6 @@
 </div>
 
 #### Basic finance calculator application that automates investment return and bond repayment calculations.
-```
-pip install pandas
-```
 ---
 
 ## 📌 Index
